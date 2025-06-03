@@ -44,6 +44,13 @@ We did not use expansive or fancy training methods, just classic and default Ult
 We enable non-computer scientist to perform fast training reproducibility for their research with effortless training methods!
 </p>
 
+## LeNeck
+
+You can find the LeNeck combination with various backbones directly hard-coded within the Ultralytics environment. However, if you have your own backbone and training loop and want to understand/use the versatile object detectors, you can find the detailed code in the LeNeck/nn.py file.
+Using MobileNetv3 as an example, it explains how we join a backbone with LeYOLO.
+
+
+
 # LeYOLO installation and quickstart
 
 ## Install
